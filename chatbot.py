@@ -68,5 +68,5 @@ async def on_message(message):
 
     print(server + time + user, message.content, "\nAmadeus:", response, "\n\n")
 
-client.run(process.env.token)
+client.run(os.enenvron['token'])
 driver.close()
