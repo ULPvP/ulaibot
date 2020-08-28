@@ -3,7 +3,7 @@ from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 import discord, platform, asyncio, time
-
+import os
 client = discord.Client()
 token = "enter your client token here"
 annoying_servers = ["filter out", "servers like this if you dont want to post at them"]
